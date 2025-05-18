@@ -9,3 +9,13 @@ https://squidfunk.github.io/mkdocs-material/reference/tooltips/#adding-abbreviat
 -->
 
 *[DnD 5e]: Dungeons and Dragons 5th Edition
+*[LARP]: Live Action Role Play
+*[GM]: Game Master
+*[GMs]: Game Masters
+
+*[AGM]: Annual General Meeting
+*[AGMs]: Annual General Meetings
+*[EGM]: Emergency General Meeting
+*[EGMs]: Emergency General Meetings
+
+*[NSRGC]: National Student Roleplaying and Gaming Championship

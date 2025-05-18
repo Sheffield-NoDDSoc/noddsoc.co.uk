@@ -6,19 +6,30 @@ site_description: >-
   Welcome to the Not Only Dungeons and Dragons society website! Here, you'll find all the information you need about the society and how you can get involved.
 
 # Repository information, shown in right side of navbar
-repo_url: https://github.com/Sheffield-NoDDSoc/noddsoc.co.uk
-repo_name: Sheffield-NoDDSoc/noddsoc.co.uk
-edit_uri: edit/main/docs/
+#repo_url: https://github.com/Sheffield-NoDDSoc/noddsoc.co.uk
+#repo_name: Sheffield-NoDDSoc/noddsoc.co.uk
+#edit_uri: edit/main/docs/
 
 # Site navigation, contains all the pages users can view
-nav: []
+nav:
+  - Committee:
+      - What We Do: committee/introduction.md
+      - Who We Are: committee/members.md
+      - Joining Committee: committee/join.md
+
+  - Games:
+      - Safety Tools:
+          - Trigger List: games/safety/triggers.md
+          - Lines & Veils: games/safety/lines_veils.md
 
 # Plugins and extensions used
 plugins:
   - search # Site search
   # Git metadata
-  - git-authors
+  - git-authors:
+      enabled: false
   - git-committers:
+      enabled: false
       repository: Sheffield-NoDDSoc/noddsoc.co.uk
       branch: main
   - git-revision-date-localized:
@@ -35,8 +46,8 @@ plugins:
       categories:
         - categories
         - tags
-  - blog:
-      blog_dir: blog
+#  - blog:
+#      blog_dir: blog
   - glightbox: # Image zoom
       background: none
       shadow: false
@@ -124,26 +135,9 @@ theme:
     - announce.dismiss
 
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-      primary: teal
-      accent: teal
-
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-      primary: yellow
-      accent: yellow
+    - scheme: slate
+      primary: amber
+      accent: orange
 
   # Updating the icons used for certain actions
   icon:
@@ -151,7 +145,7 @@ theme:
     view: material/eye
     repo: fontawesome/brands/git-alt
     annotation: material/information
-    logo: material/star-four-points-circle-outline
+    logo: noddsoc/logo
 
 extra:
   # Social media links on footer
