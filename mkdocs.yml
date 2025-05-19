@@ -158,6 +158,8 @@ extra:
       link: https://www.facebook.com/NoDDSoc/
     - icon: fontawesome/brands/tumblr
       link: https://www.tumblr.com/noddsoc
+    - icon: fontawesome/brands/github
+      link: https://github.com/Sheffield-NoDDSoc/noddsoc.co.uk
 
   consent:
     title: Cookies
