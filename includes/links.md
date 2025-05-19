@@ -9,3 +9,5 @@
 [constitution]: https://drive.google.com/file/d/1GJdWtI2U1KQngySnZsAPeby7E4Gm3rie/view?usp=sharing
 [//]: # (TODO: this link is a placeholder)
 [coc]: https://drive.google.com/file/d/1GJdWtI2U1KQngySnZsAPeby7E4Gm3rie/view?usp=sharing
+
+[templates.lines&veils]: https://docs.google.com/spreadsheets/d/1cdAg7YPV11_c-6WAOWKAWQ0RZy3AyUtibNI6i3KjEx0/edit?usp=sharing
