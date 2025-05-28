@@ -18,9 +18,32 @@ nav:
       - Joining Committee: committee/join.md
 
   - Games:
+    - GM Resources: games/gm_resources.md
+
+  - Library:
+      - Welcome Desk: library/index.md
+
+      - Catalogue:
+          - Browse by System:
+              - All Systems: library/catalogue/all_systems.md
+              - Miscellaneous: library/catalogue/_misc/index.md
+              - Chronicles of Darkness: library/catalogue/chronicles_of_darkness/index.md
+              - Call of Cthulhu: library/catalogue/call_of_cthulhu/index.md
+              - Dungeons & Dragons: library/catalogue/dnd/index.md
+              - Fighting Fantasy: library/catalogue/fighting_fantasy/index.md
+              - GURPS: library/catalogue/gurps/index.md
+              - Pathfinder: library/catalogue/pathfinder/index.md
+              - Rolemaster: library/catalogue/rolemaster/index.md
+              - World of Darkness: library/catalogue/world_of_darkness/index.md
+
+  - Safety & Inclusivity:
+      - Etiquette Guides: safety/etiquette.md
+
       - Safety Tools:
-          - Trigger List: games/safety/triggers.md
-          - Lines & Veils: games/safety/lines_veils.md
+        - Trigger List: safety/triggers.md
+        - Lines & Veils: safety/lines_veils.md
+        - Card System: safety/cards.md
+        - Script Changes: safety/script_changes.md
 
 # Plugins and extensions used
 plugins:
@@ -51,6 +74,8 @@ plugins:
   - glightbox: # Image zoom
       background: none
       shadow: false
+  - tags
+  - meta
 
 # Extensions for markdown on pages
 markdown_extensions:
@@ -110,6 +135,10 @@ extra_javascript:
   - assets/js/tablesort.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
+extra_css:
+  - assets/css/button.css
+  - assets/css/books.css
+
 theme:
   name: material
   favicon: assets/favicon.jpg
@@ -122,7 +151,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.indexes
+#    - navigation.indexes
     - navigation.top
     - toc.follow
     - content.action.edit
@@ -148,6 +177,9 @@ theme:
     logo: noddsoc/logo
 
 extra:
+  status:
+    yellow: "Yellow Book"
+
   # Social media links on footer
   social:
     - icon: fontawesome/brands/discord
@@ -177,3 +209,4 @@ copyright: >
 
 watch:
   - includes
+  - overrides

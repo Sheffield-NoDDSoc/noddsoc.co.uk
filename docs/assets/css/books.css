@@ -1,0 +1,20 @@
+.book {
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 5px;
+}
+
+.book-green {
+    background-color: #4CAE4F;
+    color: #173418;
+}
+
+.book-yellow {
+    background-color: #FFC105;
+    color: #4c3a01;
+}
+
+.book-red {
+    background-color: #E92063;
+    color: #460a1e;
+}

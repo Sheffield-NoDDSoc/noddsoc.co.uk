@@ -37,14 +37,12 @@ The Treasurer looks after our finances, and is responsible for:
 
 Our Inclusions Officers are there to ensure NoDDSoc is a welcoming and inclusive space for all. While most societies are only required to have one Inclusions Officer, NoDDSoc has two to ensure there's always someone available to help. The Inclusions team are responsible for:
 
-[//]: # (TODO: add a few links here)
-
-- Upholding NoDDSoc's [Code of Conduct][coc]
-- Managing our [Trigger List]()
+- Upholding NoDDSoc's [Etiquette Guides](/safety/etiquette)
+- Managing our [Trigger List](/safety/triggers)
 - Ensuring all events and games are accessible
 - Ensuring games have an accurate and up-to-date trigger list
 - Mediating disputes, both inside and outside games
-- Updating and encouraging the use of safety tools, such as [Lines & Veils]()
+- Updating and encouraging the use of safety tools, such as [Lines & Veils](/safety/lines_veils)
 
 ## Extended Committee
 
@@ -63,7 +61,7 @@ The Webmaster is in charge of all of NoDDSoc's accounts, as well as this website
 
 ### Librarian
 
-The Librarian looks after NoDDSoc's Library - a collection of RPG books we've gathered over the years and loan to members for use in their campaigns and one-shots. They're responsible for:
+The Librarian looks after [NoDDSoc's Library](/library) - a collection of RPG books we've gathered over the years and loan to members for use in their campaigns and one-shots. They're responsible for:
 
 - Maintaining and organising the Library
 - Maintaining an up-to-date inventory of the Library

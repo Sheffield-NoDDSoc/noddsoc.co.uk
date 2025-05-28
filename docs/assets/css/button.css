@@ -1,0 +1,9 @@
+.md-button--disabled {
+    background-color: #757575 !important;
+    border-color: #757575 !important;
+    color: var(--md-typeset-color) !important;
+}
+
+.md-button--disabled:hover {
+    cursor: not-allowed;
+}

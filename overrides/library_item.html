@@ -1,0 +1,50 @@
+{% extends "main.html" %}
+
+{% block content %}
+    <a href="/library">
+        <span class="twemoji">
+            {% include ".icons/fontawesome/solid/arrow-left.svg" %}
+        </span> Back to the catalogue
+    </a>
+
+    <h1>
+        {{ page.meta.title }}
+    </h1>
+
+    <p><b>System:</b> {{ page.meta.system }}</p>
+    <p><b>Class:</b>
+        {% if page.meta.class == "green" %}
+            <span class="book book-green">
+                green
+            </span>
+        {% elif page.meta.class == "yellow" %}
+            <span class="book book-yellow">
+                yellow
+            </span>
+        {% elif page.meta.class == "red" %}
+            <span class="book book-red">
+                red
+            </span>
+        {% endif %}
+    </p>
+
+    {% if page.meta.description is not none %}
+        <p>{{ page.meta.description }}</p>
+    {% endif %}
+
+    {% if page.meta.available %}
+        <a class="md-button md-button--primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfRNA5OXHVd0vN1kbQpcTOKBQvo5GpNldtCtP7ha1COqHkUhQ/viewform?usp=pp_url&entry.311095245={{ page.meta.system | replace(' ', '+') }}+-+{{ page.meta.title | replace(' ', '+') }}">
+            <span class="twemoji">
+                {% include ".icons/fontawesome/solid/book-open.svg" %}
+            </span> Loan this item
+        </a>
+    {% else %}
+        <a class="md-button md-button--disabled">
+            <span class="twemoji">
+                {% include ".icons/fontawesome/solid/ban.svg" %}
+            </span> This book is currently unavailable
+        </a>
+    {% endif %}
+
+    {% include("partials/source-file.html") %}
+{% endblock %}

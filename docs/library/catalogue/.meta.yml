@@ -1,0 +1,3 @@
+template: library_item.html
+hide:
+  - tags
