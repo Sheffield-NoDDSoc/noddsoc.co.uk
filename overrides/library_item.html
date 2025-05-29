@@ -1,7 +1,7 @@
 {% extends "main.html" %}
 
 {% block content %}
-    <a href="/library">
+    <a href="javascript:history.back();">
         <span class="twemoji">
             {% include ".icons/fontawesome/solid/arrow-left.svg" %}
         </span> Back to the catalogue
@@ -33,7 +33,7 @@
     {% endif %}
 
     {% if page.meta.available %}
-        <a class="md-button md-button--primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfRNA5OXHVd0vN1kbQpcTOKBQvo5GpNldtCtP7ha1COqHkUhQ/viewform?usp=pp_url&entry.311095245={{ page.meta.system | replace(' ', '+') }}+-+{{ page.meta.title | replace(' ', '+') }}">
+        <a class="md-button md-button--primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfRNA5OXHVd0vN1kbQpcTOKBQvo5GpNldtCtP7ha1COqHkUhQ/viewform?usp=pp_url&entry.311095245={{ page.meta.system | replace(' ', '+') }}+-+{{ page.meta.title | replace(' ', '+') }}">
             <span class="twemoji">
                 {% include ".icons/fontawesome/solid/book-open.svg" %}
             </span> Loan this item
@@ -45,6 +45,12 @@
             </span> This book is currently unavailable
         </a>
     {% endif %}
+
+    <a class="md-button md-button--primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdwFGw3YlhRx-_ELMgbYdlVm3rtCyvtgLbW2F_6YTfTG-AhXg/viewform?usp=pp_url&entry.2060226786={{ page.meta.system | replace(' ', '+') }}+-+{{ page.meta.title | replace(' ', '+') }}">
+        <span class="twemoji">
+            {% include ".icons/fontawesome/solid/comment.svg" %}
+        </span> Leave a review
+    </a>
 
     {% include("partials/source-file.html") %}
 {% endblock %}

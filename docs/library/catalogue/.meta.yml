@@ -1,3 +1,5 @@
 template: library_item.html
 hide:
   - tags
+search:
+  exclude: true
