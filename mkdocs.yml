@@ -5,13 +5,11 @@ site_author: NoDDSoc
 site_description: >-
   Welcome to the Not Only Dungeons and Dragons society website! Here, you'll find all the information you need about the society and how you can get involved.
 
-# Repository information, shown in right side of navbar
-#repo_url: https://github.com/Sheffield-NoDDSoc/noddsoc.co.uk
-#repo_name: Sheffield-NoDDSoc/noddsoc.co.uk
-#edit_uri: edit/main/docs/
-
 # Site navigation, contains all the pages users can view
 nav:
+  - Newsletter:
+      - Latest Posts: newsletter/index.md
+
   - Committee:
       - What We Do: committee/introduction.md
       - Who We Are: committee/members.md
@@ -21,26 +19,26 @@ nav:
     - GM Resources: games/gm_resources.md
 
   - Library:
-      - Welcome Desk: library/index.md
+      - Welcome Desk: library/welcome_desk.md
 
-      - Catalogue:
-          - Browse by System:
-              - All Systems: library/catalogue/all_systems.md
-              - Miscellaneous: library/catalogue/_misc/index.md
-              - Chronicles of Darkness: library/catalogue/chronicles_of_darkness/index.md
-              - Call of Cthulhu: library/catalogue/call_of_cthulhu/index.md
-              - Dungeons & Dragons: library/catalogue/dnd/index.md
-              - Fighting Fantasy: library/catalogue/fighting_fantasy/index.md
-              - GURPS: library/catalogue/gurps/index.md
-              - Pathfinder: library/catalogue/pathfinder/index.md
-              - Rolemaster: library/catalogue/rolemaster/index.md
-              - World of Darkness: library/catalogue/world_of_darkness/index.md
+      - Browse by System:
+          - All Systems: library/catalogue/index.md
+          - Miscellaneous: library/catalogue/_misc/index.md
+          - Chronicles of Darkness: library/catalogue/chronicles_of_darkness/index.md
+          - Call of Cthulhu: library/catalogue/call_of_cthulhu/index.md
+          - Dungeons & Dragons: library/catalogue/dnd/index.md
+          - Fighting Fantasy: library/catalogue/fighting_fantasy/index.md
+          - GURPS: library/catalogue/gurps/index.md
+          - Pathfinder: library/catalogue/pathfinder/index.md
+          - Rolemaster: library/catalogue/rolemaster/index.md
+          - World of Darkness: library/catalogue/world_of_darkness/index.md
 
   - Safety & Inclusivity:
-      - Etiquette Guides: safety/etiquette.md
+      - Etiquette: safety/etiquette.md
+      - Game Classifications: safety/game_classes.md
+      - Triggers & Squicks: safety/triggers.md
 
       - Safety Tools:
-        - Trigger List: safety/triggers.md
         - Lines & Veils: safety/lines_veils.md
         - Card System: safety/cards.md
         - Script Changes: safety/script_changes.md
@@ -61,16 +59,19 @@ plugins:
       fallback_to_build_date: true
   # External resources are downloaded during build
   - privacy
-  # RSS feed for blog posts
+  # RSS feed for newsletter posts
   - rss:
-      match_path: blog/posts/.*
+      match_path: newsletter/posts/.*
       date_from_meta:
         as_creation: date
       categories:
         - categories
         - tags
-#  - blog:
-#      blog_dir: blog
+  - blog:
+      blog_dir: newsletter
+      blog_toc: true
+      archive_toc: true
+      archive_date_format: MMM YYYY
   - glightbox: # Image zoom
       background: none
       shadow: false
@@ -151,7 +152,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-#    - navigation.indexes
+    - navigation.indexes
     - navigation.top
     - toc.follow
     - content.action.edit
@@ -177,30 +178,14 @@ theme:
     logo: noddsoc/logo
 
 extra:
-  status:
-    yellow: "Yellow Book"
-
   # Social media links on footer
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/AmSsDjzkz3
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/noddsoc/
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/NoDDSoc/
-    - icon: fontawesome/brands/tumblr
-      link: https://www.tumblr.com/noddsoc
     - icon: fontawesome/brands/github
       link: https://github.com/Sheffield-NoDDSoc/noddsoc.co.uk
-
-  consent:
-    title: Cookies
-    actions:
-      - accept
-      - reject
-      - manage
-    description: >-
-      This website uses cookies to anonymously track visits and interactions to this site, as well as feedback users give on each of the pages here so we know which pages need improvement. <b>This site does not track personal or identifiable information, ever.</b>
 
 # Copyright notice, shown in footer
 copyright: >

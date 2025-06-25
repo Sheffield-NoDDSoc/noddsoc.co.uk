@@ -19,3 +19,4 @@ https://squidfunk.github.io/mkdocs-material/reference/tooltips/#adding-abbreviat
 *[EGMs]: Emergency General Meetings
 
 *[NSRGC]: National Student Roleplaying and Gaming Championship
+*[NSFW]: Not Safe For Work

@@ -15,6 +15,7 @@
 [forms.one_shot]: https://forms.gle/UdSzX7QZnqiFe4dd7
 [forms.campaign]: https://forms.gle/PLozKCwZoEPHy7e86
 [forms.library_suggestion]: https://forms.gle/eMeUFeza6vQPxcc58
+[forms.trigger_suggestion]: https://forms.gle/xCrHUgSyPDEGzuNP7
 
 [resources.gm_masterlist]: https://docs.google.com/spreadsheets/d/1H52nzJ-c1f6bzGMorijD8aLEhoFUvroJ8IkhSLnW1FE/edit?usp=sharing 
 

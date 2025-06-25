@@ -1,6 +1,6 @@
 # Lines & Veils
 
-Lines & Veils is one of our primary safety tools. It's a spreadsheet derived from our [Trigger List](triggers.md), and whether each trigger will be present/allowed in a game. It's a great way for GMs to specify exactly which triggers *will* be present, as well as for players and GMs to specify content they don't want in-game.
+Lines & Veils is one of our primary safety tools. It's a spreadsheet derived from our [Trigger List](/safety/triggers#trigger-list), and whether each trigger will be present/allowed in a game. It's a great way for GMs to specify exactly which triggers *will* be present, as well as for players and GMs to specify content they don't want in-game.
 
 It also allows players to preemptively specify their character's involvement in romantic/sexual relationships during the game, as well as whether they're happy with participating in PvP. 
 
