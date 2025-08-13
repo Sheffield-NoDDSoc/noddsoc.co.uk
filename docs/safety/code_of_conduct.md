@@ -1,6 +1,4 @@
-# Etiquette
-
-## Social Server Etiquette
+# Code of Conduct
 
 1. **Wheaton's Law:** don't be a jerk.
 2. **Discrimination:** we have a zero-tolerance policy for any kind of discrimination (incl. but not limited to: racism, sexism, homophobia, transphobia, ableism, etc.).
@@ -18,11 +16,4 @@
 
 Breaking these rules may result in being temporarily or permanently removed from NoDDSoc, depending on the severity of the breach.
 
-Please note that these rules are subject to change at any time, and any member of [Committee](/committee/members) has the final say on disputes. 
-
-## Game Etiquette Guides
-
-In order to make sure everyone feels included and welcome in NoDDSoc, we have a set of rules that everyone is expected to follow. We have two different guides depending on whether you are a GM or a player:
-
-- **GMs:** [GM Etiquette Guide][etiquette.gm]
-- **Players:** [Player Etiquette Guide][etiquette.player]
+Please note that these rules are subject to change at any time, and any member of [Committee](/committee/members) has the final say on disputes.

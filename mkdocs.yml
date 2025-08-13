@@ -7,20 +7,28 @@ site_description: >-
 
 # Site navigation, contains all the pages users can view
 nav:
+  - Knowledge Base:
+      - Welcome: index.md
+      - Committee:
+          - What We Do: committee/introduction.md
+          - Who We Are: committee/members.md
+          - Joining Committee: committee/join.md
+      - Games:
+          - Playing a Game: games/playing_a_game.md
+          - Running a Game: games/running_a_game.md
+      - Safety & Inclusivity:
+          - Code of Conduct: safety/code_of_conduct.md
+          - Triggers & Squicks: safety/triggers.md
+      - Safety Tools:
+          - Lines & Veils: safety/lines_veils.md
+          - Card System: safety/cards.md
+          - Script Changes: safety/script_changes.md
+
   - Newsletter:
-      - Latest Posts: newsletter/index.md
-
-  - Committee:
-      - What We Do: committee/introduction.md
-      - Who We Are: committee/members.md
-      - Joining Committee: committee/join.md
-
-  - Games:
-    - GM Resources: games/gm_resources.md
+      - newsletter/index.md
 
   - Library:
       - Welcome Desk: library/welcome_desk.md
-
       - Browse by System:
           - All Systems: library/catalogue/index.md
           - Miscellaneous: library/catalogue/_misc/index.md
@@ -32,16 +40,6 @@ nav:
           - Pathfinder: library/catalogue/pathfinder/index.md
           - Rolemaster: library/catalogue/rolemaster/index.md
           - World of Darkness: library/catalogue/world_of_darkness/index.md
-
-  - Safety & Inclusivity:
-      - Etiquette: safety/etiquette.md
-      - Game Classifications: safety/game_classes.md
-      - Triggers & Squicks: safety/triggers.md
-
-      - Safety Tools:
-        - Lines & Veils: safety/lines_veils.md
-        - Card System: safety/cards.md
-        - Script Changes: safety/script_changes.md
 
 # Plugins and extensions used
 plugins:
@@ -71,7 +69,6 @@ plugins:
       blog_dir: newsletter
       blog_toc: true
       archive_toc: true
-      archive_date_format: MMM YYYY
   - glightbox: # Image zoom
       background: none
       shadow: false
@@ -152,7 +149,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.indexes
+#    - navigation.indexes
     - navigation.top
     - toc.follow
     - content.action.edit

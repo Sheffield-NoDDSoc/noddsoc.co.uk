@@ -1,7 +1,61 @@
 authors:
+  samfarbrother:
+    name: Sam Farbrother
+    description: President 2025/26
+    avatar: /assets/people/sam_farbrother.webp
+    slug: sam-farbrother
+
+  isaacdean:
+    name: Isaac Dean
+    description: Secretary 2025/26
+    avatar: /assets/people/isaac_dean.webp
+    slug: isaac-dean
+
+  nathanpritchard:
+    name: Nathan Pritchard
+    description: Treasurer 2025/26
+    avatar: /assets/people/nathan_pritchard.webp
+    slug: nathan-pritchard
+
+  bertiegoult:
+    name: Bertie Goult
+    description: Inclusions Officer 2025/26
+    avatar: /assets/people/bertie_goult.webp
+    slug: bertie-goult
+
+  aaronpoh:
+    name: Aaron Poh
+    description: Inclusions Officer 2025/26
+    avatar: /assets/people/aaron_poh.webp
+    slug: aaron-poh
+
   jackgledhill:
     name: Jack Gledhill
     description: Webmaster 2025/26
-    avatar: /assets/people/jack_gledhill.png
+    avatar: /assets/people/jack_gledhill.webp
     slug: jack-gledhill
     url: https://jackgledhill.com
+
+  jackbowley:
+    name: Jack Bowley
+    description: Librarian 2025/26
+    avatar: /assets/people/jack_bowley.webp
+    slug: jack-bowley
+
+  samscott:
+    name: Sam Scott
+    description: Events Coordinator 2025/26
+    avatar: /assets/people/sam_scott.webp
+    slug: sam-scott
+
+  alfredcheng:
+    name: Alfred Cheng
+    description: GM Coordinator 2025/26
+    avatar: /assets/people/alfred_cheng.webp
+    slug: alfred-cheng
+
+  emiliacrawley:
+    name: Emilia Crawley
+    description: LARP Coordinator 2025/26
+    avatar: /assets/people/emilia_crawley.webp
+    slug: emilia-crawley
