@@ -22,11 +22,6 @@ We classify games as follows:
 | Yellow         | This game discusses or contains sensitive content (e.g. racism, sexual violence, etc).                                        | You may be asked to limit or remove the sensitive content. |
 | Green          | There are no inclusions concerns with this game.                                                                              | This game can run as is.                                   |
 
-!!! question "Library vs Game Classification"
-    Please note that the Red & Yellow system for *games* is not the same as the Red & Yellow list for the *library*.
-
-    The Library classification only applies to books, and determines whether or not we are allowed to purchase or loan those books.
-
 After the Inclusions team has reviewed your game, they will either approve it (if it is a Green game), or ask you to make changes/clarify certain aspects (if it is a Yellow game). 
 If your game is classified as Red, you will not be able to run it within NoDDSoc.
 

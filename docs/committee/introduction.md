@@ -61,7 +61,7 @@ The Webmaster is in charge of all of NoDDSoc's accounts, as well as this website
 
 ### Librarian
 
-The Librarian looks after [NoDDSoc's Library](/library) - a collection of RPG books we've gathered over the years and loan to members for use in their campaigns and one-shots. They're responsible for:
+The Librarian looks after NoDDSoc's Library - a collection of RPG books we've gathered over the years and loan to members for use in their campaigns and one-shots. They're responsible for:
 
 - Maintaining and organising the Library
 - Maintaining an up-to-date inventory of the Library

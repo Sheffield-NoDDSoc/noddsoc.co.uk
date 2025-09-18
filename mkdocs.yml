@@ -27,19 +27,7 @@ nav:
   - Newsletter:
       - newsletter/index.md
 
-  - Library:
-      - Welcome Desk: library/welcome_desk.md
-      - Browse by System:
-          - All Systems: library/catalogue/index.md
-          - Miscellaneous: library/catalogue/_misc/index.md
-          - Chronicles of Darkness: library/catalogue/chronicles_of_darkness/index.md
-          - Call of Cthulhu: library/catalogue/call_of_cthulhu/index.md
-          - Dungeons & Dragons: library/catalogue/dnd/index.md
-          - Fighting Fantasy: library/catalogue/fighting_fantasy/index.md
-          - GURPS: library/catalogue/gurps/index.md
-          - Pathfinder: library/catalogue/pathfinder/index.md
-          - Rolemaster: library/catalogue/rolemaster/index.md
-          - World of Darkness: library/catalogue/world_of_darkness/index.md
+  - Library: https://sites.google.com/sheffield.ac.uk/noddsoclibrary
 
 # Plugins and extensions used
 plugins:
