@@ -22,3 +22,5 @@
 
 [etiquette.gm]: https://docs.google.com/document/d/1TUbU_iEBRAO0rM2b4VwUcDnlWrxheXPdgHX49e7EMOk/edit?usp=sharing
 [etiquette.player]: https://docs.google.com/document/d/1fvuKZJuYGygNvIBskb_AjjI6bMXBDjwHks37H-w2QZs/edit?tab=t.0#heading=h.drdezxj2yyyw
+
+[library]: https://sites.google.com/sheffield.ac.uk/noddsoclibrary

@@ -11,7 +11,7 @@ You can use it to find information about:
 
 - Our games and events
 - Safety tools, etiquette and our inclusions policy
-- Books available in the [online library](/library)
+- Books available in the [online library][library]
 - Committee members and their roles
 - The latest news and announcements in our [weekly newsletter](/newsletter/category/weekly-newsletter)
 
